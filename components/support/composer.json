@@ -1,0 +1,13 @@
+{
+    "name": "zeni18/support",
+    "authors": [
+        {
+            "name": "zeni18",
+            "email": "hi.zero.im@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.4"
+    }
+
+}

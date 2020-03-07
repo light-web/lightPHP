@@ -1,0 +1,31 @@
+{
+    "name": "zeni18/lightphp",
+    "authors": [
+        {
+            "name": "zeni18",
+            "email": "hi.zero.im@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "php-di/php-di": "^6.0",
+        "monolog/monolog": "^1.25",
+        "symfony/var-dumper": "^4.4",
+        "symfony/http-foundation": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "light\\": "app/",
+            "zeni18\\system\\": "system",
+            "zeni18\\container\\": "components/container/src",
+            "zeni18\\log\\": "components/log/src",
+            "zeni18\\config\\": "components/config/src",
+            "zeni18\\router\\": "components/router/src",
+            "zeni18\\support\\": "components/support/src",
+            "zeni18\\request\\": "components/request/src"
+        },
+        "files": [
+            "./system/helpers.php"
+        ]
+    }
+}
